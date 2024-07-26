@@ -182,7 +182,7 @@ class LayoutState extends State<Layout> {
                     children: <Widget> [
                       ElevatedButton(
                         onPressed: () {
-                          //declaração final é por que ela não vai mudar de estado, vai ser sempre esse valor, 
+                          //declaração 'final' é por que ela não vai mudar de estado, vai ser sempre esse valor, 
                           //sempre isso, nao mudara o valor
                           final snackBar = SnackBar(
                             content: const Text("Está é uma snackBar"),
